@@ -12,7 +12,7 @@ class Hero():
 
     def cameraBind(self):
         base.camera.reparentTo(self.hero)
-        base.camera.setPos(0, 1, 1)
+        base.camera.setPos(3, 3, 1)
         base.disableMouse()
         base.camera.setH(180)
         self.cameraOn = True
