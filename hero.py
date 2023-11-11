@@ -99,7 +99,7 @@ class Hero():
         self.move_to(angle)
 
     def up(self):
-        if self.mode:
+        if self.mode and self.hero.getZ() < 4:
             self.hero.setZ(self.hero.getZ()+1)
 
     def down(self):
